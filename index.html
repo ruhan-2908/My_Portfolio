@@ -9,25 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 </head>
 
 <body>
 
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
     <!-- Header -->
     <header class="header">
         <div class="header-left">
-            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80" alt="RUHAN K.B." class="profile-img">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=400&q=80" alt="RUHAN K.B." class="profile-img animate-fade-in">
         </div>
-        <div class="header-right">
-            <h1>RUHAN K.B.</h1>
+        <div class="header-right animate-slide-in">
+            <h1 class="gradient-text">RUHAN K.B.</h1>
             <p class="subtitle">Full Stack Developer | 2nd Year CSE @ PSG Tech</p>
             <p class="bio">Passionate about full-stack development with experience building web applications. Currently enhancing my skills in Java and web technologies while maintaining strong academic performance at PSG Tech.</p>
         </div>
     </header>
 
     <!-- Skills Section -->
-    <section class="skills-section">
-        <h2>🛠️ Tech Stack & Skills</h2>
+    <section class="skills-section animate-fade-up">
+        <h2 class="gradient-heading">🛠️ Tech Stack & Skills</h2>
         <div class="skills-container">
             <span class="skill">Java</span>
             <span class="skill">HTML</span>
@@ -42,8 +46,8 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects-section">
-        <h2>📂 Projects</h2>
+    <section class="projects-section animate-fade-up">
+        <h2 class="gradient-heading">📂 Projects</h2>
         <div class="projects-container">
             <div class="project-card">
                 <h3>Login System</h3>
@@ -61,24 +65,24 @@
     </section>
 
     <!-- GitHub Stats Section -->
-    <section class="github-stats">
-        <h2>📊 GitHub Stats</h2>
+    <section class="github-stats animate-fade-up">
+        <h2 class="gradient-heading">📊 GitHub Stats</h2>
         <div class="stats-container">
             <img src="https://github-readme-stats.vercel.app/api?username=ruhan-2908&show_icons=true&theme=tokyonight" alt="GitHub Stats">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruhan-2908&layout=compact&theme=tokyonight" alt="Top Languages">
         </div>
     </section>
 
-    <!-- Fun Fact / Currently Learning -->
-    <section class="fun-fact">
-        <h2>🌱 Currently Learning</h2>
-        <p>Always exploring new technologies, frameworks, and best practices. Passionate about building modern, scalable, and user-friendly web applications.</p>
+    <!-- Currently Learning -->
+    <section class="fun-fact animate-fade-up">
+        <h2 class="gradient-heading">🌱 Currently Learning</h2>
+        <div class="learning-badge">Passionate Learner & Exploring Modern Web Tech</div>
         <p>💭 Quote I live by: "The more you sweat in peace, the less you bleed in war."</p>
     </section>
 
     <!-- Contact / Socials -->
-    <section class="contact-section">
-        <h2>🌐 Connect With Me</h2>
+    <section class="contact-section animate-fade-up">
+        <h2 class="gradient-heading">🌐 Connect With Me</h2>
         <div class="social-links">
             <a href="https://github.com/ruhan-2908" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             <a href="https://www.linkedin.com/in/ruhankb29/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
@@ -92,6 +96,7 @@
         <p>&copy; 2025 RUHAN K.B. | Designed with ❤️ by Ruhan</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
