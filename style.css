@@ -10,6 +10,17 @@ body {
     background: #0d1117;
     color: #c9d1d9;
     line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Particle Background */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 /* Header */
@@ -18,24 +29,30 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 50px 20px;
-    background: #161b22;
-    border-bottom: 2px solid #30363d;
+    padding: 70px 20px;
 }
 
 .header-left img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     margin-right: 30px;
     border: 4px solid #A9FEF7;
+    box-shadow: 0 0 20px #A9FEF7;
+    animation: pulse 2s infinite alternate;
+}
+
+.header-right {
+    max-width: 600px;
 }
 
 .header-right h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    color: #A9FEF7;
-    margin-bottom: 5px;
+    font-size: 42px;
+    background: linear-gradient(90deg,#FFD700,#A9FEF7,#58a6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
 }
 
 .subtitle {
@@ -46,19 +63,23 @@ body {
 
 .bio {
     font-size: 16px;
-    max-width: 500px;
+    max-width: 600px;
+}
+
+/* Gradient headings */
+.gradient-heading {
+    font-size: 28px;
+    background: linear-gradient(90deg,#FFD700,#A9FEF7,#58a6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 /* Skills Section */
 .skills-section {
     text-align: center;
     padding: 50px 20px;
-}
-
-.skills-section h2 {
-    font-size: 28px;
-    color: #FFD700;
-    margin-bottom: 20px;
 }
 
 .skills-container {
@@ -71,48 +92,43 @@ body {
 .skill {
     background: #238636;
     color: #fff;
-    padding: 10px 15px;
-    border-radius: 20px;
+    padding: 12px 18px;
+    border-radius: 25px;
     font-weight: 500;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #A9FEF7;
 }
 
 /* Projects Section */
 .projects-section {
     padding: 50px 20px;
-    background: #161b22;
     text-align: center;
-}
-
-.projects-section h2 {
-    font-size: 28px;
-    color: #FFD700;
-    margin-bottom: 30px;
 }
 
 .projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .project-card {
-    background: #0d1117;
+    background: #161b22;
     border: 2px solid #30363d;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    border-radius: 15px;
+    padding: 25px;
+    width: 270px;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     border-color: #A9FEF7;
+    box-shadow: 0 0 20px #A9FEF7;
 }
 
 .project-card h3 {
@@ -120,58 +136,62 @@ body {
     margin-bottom: 10px;
 }
 
-/* GitHub Stats Section */
+/* GitHub Stats */
 .github-stats {
     text-align: center;
     padding: 50px 20px;
 }
 
 .stats-container img {
-    max-width: 350px;
+    max-width: 360px;
     margin: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
 }
 
-/* Fun Fact Section */
+.stats-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Fun Fact / Currently Learning */
 .fun-fact {
     text-align: center;
     padding: 50px 20px;
 }
 
-.fun-fact h2 {
-    font-size: 28px;
-    color: #FFD700;
+.learning-badge {
+    display: inline-block;
+    background: linear-gradient(90deg,#FFD700,#A9FEF7);
+    color: #0d1117;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
     margin-bottom: 15px;
+    animation: pulse 2s infinite alternate;
 }
 
 /* Contact Section */
 .contact-section {
     text-align: center;
     padding: 50px 20px;
-    background: #161b22;
-}
-
-.contact-section h2 {
-    font-size: 28px;
-    color: #FFD700;
-    margin-bottom: 20px;
 }
 
 .social-links a {
     display: inline-block;
-    margin: 10px 15px;
-    padding: 10px 15px;
+    margin: 12px 15px;
+    padding: 12px 18px;
     color: #fff;
     border: 1px solid #30363d;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .social-links a:hover {
     background: #A9FEF7;
     color: #0d1117;
-    transform: scale(1.1);
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #A9FEF7;
 }
 
 /* Footer */
@@ -183,6 +203,20 @@ footer {
     color: #8b949e;
 }
 
+/* Animations */
+@keyframes pulse {
+    0% { box-shadow: 0 0 15px #A9FEF7; }
+    100% { box-shadow: 0 0 35px #FFD700; }
+}
+
+.animate-fade-in { opacity: 0; animation: fadeIn 1.2s forwards; }
+.animate-slide-in { opacity: 0; transform: translateX(-50px); animation: slideIn 1s forwards; }
+.animate-fade-up { opacity: 0; transform: translateY(50px); animation: fadeUp 1s forwards; }
+
+@keyframes fadeIn { to { opacity: 1; } }
+@keyframes slideIn { to { opacity:1; transform: translateX(0); } }
+@keyframes fadeUp { to { opacity:1; transform: translateY(0); } }
+
 /* Responsive */
 @media (max-width: 768px) {
     .header {
@@ -191,5 +225,12 @@ footer {
     .header-left img {
         margin-bottom: 20px;
         margin-right: 0;
+    }
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-container {
+        flex-direction: column;
     }
 }
