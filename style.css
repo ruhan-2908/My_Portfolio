@@ -1,14 +1,14 @@
-/* Custom CSS Variables for Theming */
+
 :root {
     --dark-bg: #0a192f;
-    --primary: #64ffda; /* Neon Green/Cyan Accent */
+    --primary: #64ffda;
     --text-light: #ccd6f6;
     --text-medium: #8892b0;
     --card-bg: #112240;
     --font-family: 'Inter', sans-serif;
 }
 
-/* Global Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ html {
     scroll-behavior: smooth;
 }
 .hero-image img {
-    border-radius: 50%; /* circular image */
+    border-radius: 50%; 
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -33,7 +33,6 @@ body {
     min-height: 100vh;
 }
 
-/* Typography and Headings */
 h1, h2, h3, h4 {
     color: var(--text-light);
     font-weight: 600;
@@ -43,7 +42,7 @@ h1 {
     font-size: 4rem;
     font-weight: 900;
     line-height: 1.1;
-    color: var(--primary); /* Highlight the main name */
+    color: var(--primary);
 }
 
 h2 {
@@ -52,11 +51,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* Utility Class */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 25px; /* Padding for sections */
 }
 
 .section-title {
@@ -74,13 +72,13 @@ h2 {
     font-weight: 400;
 }
 
-/* 1. Navigation Bar */
+
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(10, 25, 47, 0.85); /* Semi-transparent background */
+    background-color: rgba(10, 25, 47, 0.85); 
     backdrop-filter: blur(10px);
     z-index: 1000;
     display: flex;
@@ -115,21 +113,28 @@ h2 {
 }
 
 .menu-toggle {
-    display: none; /* Hidden on large screens */
+    display: none; 
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--primary);
 }
 
-/* 2. Hero Section */
+
 .hero-section {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0px; /* Offset for fixed nav */
+    padding-top: 0px;
+}
+.hero-section {
+    margin-bottom: 40px; 
 }
 
+
+#about.container {
+    padding-top: 40px;
+}
 .hero-content {
     flex: 1;
     max-width: 600px;
@@ -166,7 +171,7 @@ h2 {
 
 .typewriter-text {
     color: var(--primary);
-    border-right: 3px solid var(--primary); /* Cursor effect */
+    border-right: 3px solid var(--primary); 
     white-space: nowrap;
     overflow: hidden;
     animation: typing 3s steps(40, end), blink-cursor 0.75s step-end infinite;
@@ -183,7 +188,7 @@ h2 {
     50% { border-color: var(--primary); }
 }
 
-/* Call to Action Button */
+
 .cta-button {
     background-color: transparent;
     border: 1px solid var(--primary);
@@ -216,7 +221,7 @@ h2 {
     padding: 20px 40px;
 }
 
-/* 3. About Section */
+
 .about-grid {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -273,7 +278,7 @@ h2 {
 }
 
 
-/* 4. Skills Section */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -319,7 +324,7 @@ h2 {
     left: 0;
 }
 
-/* 5. Projects Section */
+
 .section-subtitle {
     color: var(--text-medium);
     margin-bottom: 40px;
@@ -398,7 +403,7 @@ h2 {
     border-radius: 8px;
 }
 
-/* 6. Contact Section */
+
 .contact-section {
     text-align: center;
     max-width: 600px;
@@ -417,7 +422,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 40px 0;
@@ -443,7 +448,7 @@ footer {
 }
 
 
-/* 7. Media Queries for Responsiveness */
+
 @media (max-width: 900px) {
     .hero-section {
         flex-direction: column;
@@ -474,7 +479,7 @@ footer {
     }
 
     .nav-links {
-        display: none; /* Hide on small screens by default */
+        display: none; 
         flex-direction: column;
         position: absolute;
         top: 70px;
@@ -498,7 +503,7 @@ footer {
     }
 
     .menu-toggle {
-        display: block; /* Show menu toggle on small screens */
+        display: block; 
     }
 }
 
