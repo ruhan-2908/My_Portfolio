@@ -18,6 +18,12 @@
 html {
     scroll-behavior: smooth;
 }
+.hero-image img {
+    border-radius: 50%; /* circular image */
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
 
 body {
     background-color: var(--dark-bg);
