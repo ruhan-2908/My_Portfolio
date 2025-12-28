@@ -140,7 +140,7 @@ export const timeline: TimelineEvent[] = [
   {
     version: "v3.0",
     title: "Full Stack Development",
-    date: "2024 - Present",
+    date: "2025 - Present",
     description: "Pursuing B.E. in Computer Science at PSG College of Technology",
     type: "education",
     highlights: [
@@ -152,7 +152,7 @@ export const timeline: TimelineEvent[] = [
   {
     version: "v2.5",
     title: "Smart India Hackathon",
-    date: "2024",
+    date: "2025",
     description: "Presented innovative concept for gamified learning environment",
     type: "achievement",
     highlights: [
@@ -164,7 +164,7 @@ export const timeline: TimelineEvent[] = [
   {
     version: "v2.0",
     title: "Web Development Internship",
-    date: "2024",
+    date: "JULY 2025",
     description: "SkillCraft - Individual internship focused on React development",
     type: "experience",
     highlights: [
@@ -176,7 +176,7 @@ export const timeline: TimelineEvent[] = [
   {
     version: "v1.5",
     title: "First Full Stack Projects",
-    date: "2023-2024",
+    date: "2024-2025",
     description: "Built CraveLane and Async Shop applications",
     type: "project",
     highlights: [
