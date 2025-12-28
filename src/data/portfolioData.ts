@@ -132,7 +132,7 @@ export const projects: Project[] = [
     ],
     outcome: "Created a production-ready e-commerce platform currently undergoing upgrades for improved performance and additional integrations.",
     technologies: ["Java", "Spring Boot", "React", "MySQL"],
-    status: "in-progress",
+    status: "completed",
   },
 ];
 
