@@ -182,7 +182,7 @@ function HeroView({
           transition={{ delay: 1 }}
           className="mt-16 font-mono text-xs text-muted-foreground/50"
         >
-          Built with precision • Designed for clarity • Press terminal icon to explore via CLI
+          Press terminal icon to explore via CLI
         </motion.p>
       </div>
     </motion.div>

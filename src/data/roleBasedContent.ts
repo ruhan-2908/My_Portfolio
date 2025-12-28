@@ -30,7 +30,7 @@ export const roleBasedContent: Record<NonNullable<UserRole>, RoleContent> = {
       headline: "Candidate Profile",
       emphasis: ["Available for hire", "Full-stack capable", "Quick learner"],
       stats: [
-        { label: "Education", value: "B.E. CSE", sublabel: "PSG Tech (Top Tier)" },
+        { label: "Education", value: "B.E. CSE", sublabel: "PSG Tech" },
         { label: "Experience", value: "Intern+", sublabel: "Industry Ready" },
         { label: "Projects", value: "2+", sublabel: "Production Apps" },
         { label: "Status", value: "Open", sublabel: "Immediate Join" },

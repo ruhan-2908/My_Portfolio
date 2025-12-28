@@ -62,7 +62,7 @@ export function AboutApp() {
       </div>
 
       <p className="text-white/30 text-xs mt-8">
-        Built with ❤️ using React & TypeScript
+        Author - RUHAN K.B.
       </p>
     </div>
   );

@@ -65,13 +65,13 @@ export const skills: Skill[] = [
   { name: "Node.js", category: "backend", proficiency: 82 },
   { name: "Express.js", category: "backend", proficiency: 80 },
   { name: "Spring Boot", category: "backend", proficiency: 75 },
-  { name: "Java", category: "language", proficiency: 78 },
+  { name: "Java", category: "language", proficiency: 88 },
   { name: "Python", category: "language", proficiency: 70 },
   { name: "MongoDB", category: "database", proficiency: 80 },
-  { name: "MySQL", category: "database", proficiency: 72 },
-  { name: "Git & GitHub", category: "devops", proficiency: 85 },
+  { name: "MySQL", category: "database", proficiency: 85 },
+  { name: "Git & GitHub", category: "devops", proficiency: 95 },
   { name: "Docker", category: "devops", proficiency: 65 },
-  { name: "Tailwind CSS", category: "frontend", proficiency: 88 },
+  { name: "Tailwind CSS", category: "frontend", proficiency: 70 },
   { name: "REST APIs", category: "backend", proficiency: 85 },
 ];
 
@@ -196,7 +196,7 @@ export const timeline: TimelineEvent[] = [
       "Programming fundamentals",
       "Algorithmic thinking",
     ],
-  },
+  }
 ];
 
 export const roleEmphasis = {

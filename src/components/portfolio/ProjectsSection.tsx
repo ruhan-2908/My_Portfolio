@@ -29,7 +29,7 @@ export function ProjectsSection() {
         >
           <div className="flex items-center gap-3 mb-4">
             <span className="font-mono text-sm text-primary tracking-wider">
-              03 // {roleContent?.projects.headline.toUpperCase() || "CASE FILES"}
+              03 {roleContent?.projects.headline.toUpperCase() || "CASE FILES"}
             </span>
             <div className="flex-1 h-px bg-border" />
           </div>

@@ -73,7 +73,7 @@ export function Navigation({ onLaunchUbuntu }: NavigationProps) {
                 RKB
               </span>
               <span className="font-mono text-xs text-muted-foreground">
-                // v3.0
+                
               </span>
             </div>
           </div>

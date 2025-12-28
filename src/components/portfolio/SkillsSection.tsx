@@ -63,7 +63,7 @@ export function SkillsSection() {
         >
           <div className="flex items-center gap-3 mb-4">
             <span className="font-mono text-sm text-primary tracking-wider">
-              02 // {roleContent?.skills.headline.toUpperCase() || "DETECTED CAPABILITIES"}
+              02 {roleContent?.skills.headline.toUpperCase() || "DETECTED CAPABILITIES"}
             </span>
             <div className="flex-1 h-px bg-border" />
           </div>

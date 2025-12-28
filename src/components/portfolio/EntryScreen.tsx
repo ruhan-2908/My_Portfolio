@@ -151,7 +151,7 @@ export function EntryScreen() {
           transition={{ duration: 0.6, delay: 1.2 }}
           className="mt-12 font-mono text-xs text-muted-foreground/60"
         >
-          RUHAN K.B. // FULL STACK DEVELOPER // SYSTEM v3.0
+          RUHAN K.B. v3.0
         </motion.p>
       </div>
     </div>
