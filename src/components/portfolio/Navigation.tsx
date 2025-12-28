@@ -70,7 +70,7 @@ export function Navigation({ onLaunchUbuntu }: NavigationProps) {
             <div className="hidden sm:flex items-center gap-2">
               <div className="status-indicator" />
               <span className="font-mono text-sm font-medium text-foreground">
-                RKB
+                RUHAN 
               </span>
               <span className="font-mono text-xs text-muted-foreground">
                 
